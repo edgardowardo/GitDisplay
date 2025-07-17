@@ -24,6 +24,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		772AC2372E2933E40040BC40 /* GitHubAPI */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = GitHubAPI; sourceTree = "<group>"; };
 		77A21A522E2801F500578718 /* GitDisplay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitDisplay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77A21A5F2E2801F600578718 /* GitDisplayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitDisplayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		77A21A692E2801F600578718 /* GitDisplayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitDisplayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -78,6 +79,7 @@
 				77A21A542E2801F500578718 /* GitDisplay */,
 				77A21A622E2801F600578718 /* GitDisplayTests */,
 				77A21A6C2E2801F600578718 /* GitDisplayUITests */,
+				772AC2372E2933E40040BC40 /* GitHubAPI */,
 				77A21A532E2801F500578718 /* Products */,
 			);
 			sourceTree = "<group>";
