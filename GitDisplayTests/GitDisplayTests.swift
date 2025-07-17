@@ -1,10 +1,3 @@
-//
-//  GitDisplayTests.swift
-//  GitDisplayTests
-//
-//  Created by EDGARDO AGNO on 16/07/2025.
-//
-
 import Testing
 @testable import GitDisplay
 
