@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		772AC25A2E293E550040BC40 /* GitHubAPI in Frameworks */ = {isa = PBXBuildFile; productRef = 772AC2592E293E550040BC40 /* GitHubAPI */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		77A21A602E2801F600578718 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -53,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				772AC25A2E293E550040BC40 /* GitHubAPI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +78,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		772AC2582E293E550040BC40 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		77A21A492E2801F500578718 = {
 			isa = PBXGroup;
 			children = (
@@ -80,6 +92,7 @@
 				77A21A622E2801F600578718 /* GitDisplayTests */,
 				77A21A6C2E2801F600578718 /* GitDisplayUITests */,
 				772AC2372E2933E40040BC40 /* GitHubAPI */,
+				772AC2582E293E550040BC40 /* Frameworks */,
 				77A21A532E2801F500578718 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -114,6 +127,7 @@
 			);
 			name = GitDisplay;
 			packageProductDependencies = (
+				772AC2592E293E550040BC40 /* GitHubAPI */,
 			);
 			productName = GitDisplay;
 			productReference = 77A21A522E2801F500578718 /* GitDisplay.app */;
@@ -572,6 +586,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		772AC2592E293E550040BC40 /* GitHubAPI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = GitHubAPI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 77A21A4A2E2801F500578718 /* Project object */;
 }
